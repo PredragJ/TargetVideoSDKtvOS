@@ -6,3 +6,10 @@
 //
 
 import Foundation
+import TargetVideoSDKtvOS
+import GoogleInteractiveMediaAds
+
+// This file is required to satisfy SPM. No functional code is needed unless required.
+public struct TargetVideoSDKtvOSWrapper {
+    public init() {}
+}
