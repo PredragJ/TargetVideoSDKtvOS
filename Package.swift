@@ -3,8 +3,6 @@
 
 import PackageDescription
 
-import PackageDescription
-
 let package = Package(
     name: "TargetVideoSDKtvOS",
     platforms: [
@@ -13,7 +11,7 @@ let package = Package(
     products: [
         .library(
             name: "TargetVideoSDKtvOS",
-            targets: ["TargetVideoSDKtvOS"]
+            targets: ["TargetVideoSDKtvOSWrapper"]
         ),
     ],
     dependencies: [
@@ -34,3 +32,4 @@ let package = Package(
         )
     ]
 )
+
