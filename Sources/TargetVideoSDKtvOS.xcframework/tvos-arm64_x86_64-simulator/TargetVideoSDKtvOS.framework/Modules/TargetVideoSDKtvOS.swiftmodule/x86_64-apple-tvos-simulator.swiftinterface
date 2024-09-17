@@ -1,0 +1,238 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-tvos16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name TargetVideoSDKtvOS
+import AVFoundation
+import AVKit
+import AppTrackingTransparency
+import Foundation
+import GoogleInteractiveMediaAds
+import Network
+import Swift
+@_exported import TargetVideoSDKtvOS
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc public class TargetVideoPlayer : ObjectiveC.NSObject {
+  public init(parentVC: UIKit.UIViewController, playerView: UIKit.UIView, builderSettings: TargetVideoSDKtvOS.BuilderSettingsModel)
+  public func loadVideo(playerId: Swift.Int, videoId: Swift.Int)
+  public func loadPlaylist(playerId: Swift.Int, playlistId: Swift.Int)
+  public func playVideo()
+  public func pauseVideo()
+  public func muteVideo()
+  public func unMuteVideo()
+  public func nextVideo()
+  public func previousVideo()
+  public func stop()
+  public func destroy()
+  public func hideThumbnail()
+  public func getCurrentTime()
+  public func getCurrentIndex()
+  public func getDuration()
+  public func getPlaylist()
+  public func getSource()
+  public func getVideo()
+  public func getVolume()
+  public func playByIndex(_ index: Swift.Int)
+  @objc deinit
+}
+public struct BuilderSettingsModel {
+}
+public enum PlayerEvents : Swift.String {
+  case playerInitialized
+  case playerLoaded
+  case videoPause
+  case videoPlay
+  case videoBuffering
+  case videoEnd
+  case playlistNext
+  case playlistPrevious
+  case playlistEnd
+  case videoMute
+  case videoUnmute
+  case videoAutoplay
+  case videoBadUrl
+  case playerClose
+  case getCurrentIndex
+  case getDuration
+  case getCurrentTime
+  case getPlaylist
+  case getSource
+  case getVideo
+  case getVolume
+  case playByIndex
+  case videoError
+  case networkError
+  case videoFormatError
+  case videoProtectionError
+  case videoLivestreamError
+  case videoCmsError
+  case videoStop
+  case adLoaded
+  case adRequest
+  case adImpression
+  case adCompleted
+  case adResumed
+  case adSkipped
+  case adContentResume
+  case adFirstQuartile
+  case adMidpoint
+  case adThirdQuartile
+  case adStarted
+  case adPaused
+  case adTapped
+  case allAdsCompleted
+  case adBreakReady
+  case adBreakStarted
+  case adBreakEnded
+  case adBuffering
+  case adProgress
+  case adPeriodStarted
+  case adPeriodEnded
+  case adClicked
+  case adContentPauseRequested
+  case adSkippableStateChanged
+  case adError
+  case adBreakFetchError
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension Foundation.NSNotification.Name {
+  public static let playerInitialized: Foundation.Notification.Name
+  public static let playerLoaded: Foundation.Notification.Name
+  public static let videoPause: Foundation.Notification.Name
+  public static let videoPlay: Foundation.Notification.Name
+  public static let videoBuffering: Foundation.Notification.Name
+  public static let videoEnd: Foundation.Notification.Name
+  public static let playlistNext: Foundation.Notification.Name
+  public static let playlistPrevious: Foundation.Notification.Name
+  public static let playlistEnd: Foundation.Notification.Name
+  public static let videoMute: Foundation.Notification.Name
+  public static let videoUnmute: Foundation.Notification.Name
+  public static let videoAutoplay: Foundation.Notification.Name
+  public static let videoBadUrl: Foundation.Notification.Name
+  public static let playerClose: Foundation.Notification.Name
+  public static let getCurrentIndex: Foundation.Notification.Name
+  public static let getDuration: Foundation.Notification.Name
+  public static let getCurrentTime: Foundation.Notification.Name
+  public static let getPlaylist: Foundation.Notification.Name
+  public static let getSource: Foundation.Notification.Name
+  public static let getVideo: Foundation.Notification.Name
+  public static let getVolume: Foundation.Notification.Name
+  public static let playByIndex: Foundation.Notification.Name
+  public static let videoError: Foundation.Notification.Name
+  public static let networkError: Foundation.Notification.Name
+  public static let videoFormatError: Foundation.Notification.Name
+  public static let videoProtectionError: Foundation.Notification.Name
+  public static let videoLivestreamError: Foundation.Notification.Name
+  public static let videoCmsError: Foundation.Notification.Name
+  public static let videoStop: Foundation.Notification.Name
+  public static let adLoaded: Foundation.Notification.Name
+  public static let adRequest: Foundation.Notification.Name
+  public static let adImpression: Foundation.Notification.Name
+  public static let adCompleted: Foundation.Notification.Name
+  public static let adResumed: Foundation.Notification.Name
+  public static let adSkipped: Foundation.Notification.Name
+  public static let adContentResume: Foundation.Notification.Name
+  public static let adFirstQuartile: Foundation.Notification.Name
+  public static let adMidpoint: Foundation.Notification.Name
+  public static let adThirdQuartile: Foundation.Notification.Name
+  public static let adStarted: Foundation.Notification.Name
+  public static let adPaused: Foundation.Notification.Name
+  public static let adTapped: Foundation.Notification.Name
+  public static let allAdsCompleted: Foundation.Notification.Name
+  public static let adBreakReady: Foundation.Notification.Name
+  public static let adBreakStarted: Foundation.Notification.Name
+  public static let adBreakEnded: Foundation.Notification.Name
+  public static let adBuffering: Foundation.Notification.Name
+  public static let adProgress: Foundation.Notification.Name
+  public static let adPeriodStarted: Foundation.Notification.Name
+  public static let adPeriodEnded: Foundation.Notification.Name
+  public static let adClicked: Foundation.Notification.Name
+  public static let adContentPauseRequested: Foundation.Notification.Name
+  public static let adError: Foundation.Notification.Name
+  public static let adBreakFetchError: Foundation.Notification.Name
+}
+public enum DataType : Swift.Int {
+  case video
+  case playlist
+  case latest
+  case channel
+  case tag
+  case related
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct VideoData : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Snapshots : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct Source : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Track : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Languages : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension TargetVideoSDKtvOS.Snapshots {
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct VideoChanelData : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public class PlayerBuilder {
+  public var parentVC: UIKit.UIViewController {
+    get
+  }
+  public var view: UIKit.UIView {
+    get
+  }
+  public var isMuted: Swift.Bool? {
+    get
+  }
+  public var controlAutoplay: Swift.Bool? {
+    get
+  }
+  public var playerReference: Swift.String? {
+    get
+  }
+  public var countryCode: Swift.String? {
+    get
+  }
+  public var timeoutMS: Swift.Int? {
+    get
+  }
+  public var adMacros: [Swift.String : Swift.String]? {
+    get
+  }
+  public init(parentVC: UIKit.UIViewController, playerView: UIKit.UIView)
+  public func setMuteOnStart(_ isMuted: Swift.Bool)
+  public func controlAutoplay(_ controlAutoplay: Swift.Bool)
+  public func setPlayerReference(_ playerReference: Swift.String)
+  public func setPlayerLanguage(countryCode: Swift.String)
+  public func setControllerTimeoutMs(_ timeoutMS: Swift.Int)
+  public func setAdMacros(_ adMacros: [Swift.String : Swift.String])
+  public func build() -> TargetVideoSDKtvOS.TargetVideoPlayer
+  @objc deinit
+}
+extension TargetVideoSDKtvOS.PlayerEvents : Swift.Equatable {}
+extension TargetVideoSDKtvOS.PlayerEvents : Swift.Hashable {}
+extension TargetVideoSDKtvOS.PlayerEvents : Swift.RawRepresentable {}
+extension TargetVideoSDKtvOS.DataType : Swift.Equatable {}
+extension TargetVideoSDKtvOS.DataType : Swift.Hashable {}
+extension TargetVideoSDKtvOS.DataType : Swift.RawRepresentable {}

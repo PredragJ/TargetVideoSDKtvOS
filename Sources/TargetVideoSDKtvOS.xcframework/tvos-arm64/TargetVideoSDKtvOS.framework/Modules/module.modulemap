@@ -1,0 +1,11 @@
+framework module TargetVideoSDKtvOS {
+  umbrella header "TargetVideoSDKtvOS.h"
+  export *
+
+  module * { export * }
+}
+
+module TargetVideoSDKtvOS.Swift {
+  header "TargetVideoSDKtvOS-Swift.h"
+  requires objc
+}
