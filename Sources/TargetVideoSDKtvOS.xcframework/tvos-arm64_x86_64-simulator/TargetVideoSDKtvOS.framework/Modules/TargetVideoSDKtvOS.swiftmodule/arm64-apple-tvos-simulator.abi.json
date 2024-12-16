@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "TargetVideoSDKtvOS",
+    "printedName": "TargetVideoSDKtvOS",
     "children": [
       {
         "kind": "Import",
@@ -319,7 +319,7 @@
           {
             "kind": "Function",
             "name": "loadVideo",
-            "printedName": "loadVideo(playerId:videoId:)",
+            "printedName": "loadVideo(playerId:videoId:embeddedInView:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -337,11 +337,18 @@
                 "name": "Int",
                 "printedName": "Swift.Int",
                 "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:18TargetVideoSDKtvOS0aB6PlayerC04loadB08playerId05videoH0ySi_SitF",
-            "mangledName": "$s18TargetVideoSDKtvOS0aB6PlayerC04loadB08playerId05videoH0ySi_SitF",
+            "usr": "s:18TargetVideoSDKtvOS0aB6PlayerC04loadB08playerId05videoH014embeddedInViewySi_SiSbtF",
+            "mangledName": "$s18TargetVideoSDKtvOS0aB6PlayerC04loadB08playerId05videoH014embeddedInViewySi_SiSbtF",
             "moduleName": "TargetVideoSDKtvOS",
             "declAttributes": [
               "AccessControl",
@@ -352,7 +359,7 @@
           {
             "kind": "Function",
             "name": "loadPlaylist",
-            "printedName": "loadPlaylist(playerId:playlistId:)",
+            "printedName": "loadPlaylist(playerId:playlistId:embeddedInView:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -370,11 +377,18 @@
                 "name": "Int",
                 "printedName": "Swift.Int",
                 "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:18TargetVideoSDKtvOS0aB6PlayerC12loadPlaylist8playerId08playlistI0ySi_SitF",
-            "mangledName": "$s18TargetVideoSDKtvOS0aB6PlayerC12loadPlaylist8playerId08playlistI0ySi_SitF",
+            "usr": "s:18TargetVideoSDKtvOS0aB6PlayerC12loadPlaylist8playerId08playlistI014embeddedInViewySi_SiSbtF",
+            "mangledName": "$s18TargetVideoSDKtvOS0aB6PlayerC12loadPlaylist8playerId08playlistI014embeddedInViewySi_SiSbtF",
             "moduleName": "TargetVideoSDKtvOS",
             "declAttributes": [
               "AccessControl"
@@ -786,6 +800,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -966,6 +994,22 @@
         "moduleName": "TargetVideoSDKtvOS",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -3414,6 +3458,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3852,6 +3910,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3955,6 +4027,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -4039,6 +4125,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -4118,6 +4218,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -4201,6 +4315,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -4282,6 +4410,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -4361,6 +4503,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -5119,6 +5275,22 @@
         "moduleName": "TargetVideoSDKtvOS",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -7844,6 +8016,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_ObjectiveCBridgeable",
             "printedName": "_ObjectiveCBridgeable",
             "children": [
@@ -7949,27 +8135,6 @@
       "value": "\"%\""
     },
     {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Models\/AdScheduleData.swift",
-      "kind": "StringLiteral",
-      "offset": 161,
-      "length": 3,
-      "value": "\"s\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Models\/AdScheduleData.swift",
-      "kind": "StringLiteral",
-      "offset": 185,
-      "length": 3,
-      "value": "\"i\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Models\/AdScheduleData.swift",
-      "kind": "StringLiteral",
-      "offset": 211,
-      "length": 3,
-      "value": "\"%\""
-    },
-    {
       "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/PlayerController\/CustomInfoPlaylist\/PlaylistCollectionViewCell\/PlaylistCollectionViewCell.swift",
       "kind": "StringLiteral",
       "offset": 1288,
@@ -7984,52 +8149,17 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/PlayerController\/TargetVideoPlayerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1810,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdScheduler.swift",
       "kind": "IntegerLiteral",
       "offset": 144,
       "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdScheduler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 166,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdScheduler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 189,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdScheduler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 144,
-      "length": 1,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdScheduler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 166,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdScheduler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 189,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdScheduler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 144,
-      "length": 1,
       "value": "-1"
     },
     {
@@ -8066,55 +8196,6 @@
       "offset": 1068,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/PlayerController\/PlayerController.swift",
-      "kind": "StringLiteral",
-      "offset": 402,
-      "length": 16,
-      "value": "\"TargetVideoSDKtvOS.PlayerController\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/RenditionNames.swift",
-      "kind": "StringLiteral",
-      "offset": 159,
-      "length": 6,
-      "value": "\"Auto\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/RenditionNames.swift",
-      "kind": "StringLiteral",
-      "offset": 181,
-      "length": 7,
-      "value": "\"1080p\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/RenditionNames.swift",
-      "kind": "StringLiteral",
-      "offset": 203,
-      "length": 6,
-      "value": "\"720p\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/RenditionNames.swift",
-      "kind": "StringLiteral",
-      "offset": 225,
-      "length": 6,
-      "value": "\"480p\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/RenditionNames.swift",
-      "kind": "StringLiteral",
-      "offset": 246,
-      "length": 6,
-      "value": "\"360p\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/RenditionNames.swift",
-      "kind": "StringLiteral",
-      "offset": 267,
-      "length": 6,
-      "value": "\"240p\""
     },
     {
       "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/RenditionNames.swift",
@@ -8166,13 +8247,6 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/IMAController.swift",
-      "kind": "StringLiteral",
-      "offset": 155,
-      "length": 13,
-      "value": "\"TargetVideoSDKtvOS.IMAController\""
-    },
-    {
       "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/PlayerController\/VideoEndStrategy\/RecommendedScreen\/Recommended Screen\/RecommendedVideosViewController.swift",
       "kind": "Array",
       "offset": 578,
@@ -8181,31 +8255,17 @@
     },
     {
       "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Public\/TargetVideoPlayer.swift",
-      "kind": "StringLiteral",
-      "offset": 140,
-      "length": 17,
-      "value": "\"TargetVideoSDKtvOS.TargetVideoPlayer\""
+      "kind": "BooleanLiteral",
+      "offset": 1041,
+      "length": 5,
+      "value": "false"
     },
     {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/PlayerController\/AgeRestricted\/AgeRestrictedViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 171,
-      "length": 3,
-      "value": "\"1\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/PlayerController\/AgeRestricted\/AgeRestrictedViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 197,
-      "length": 3,
-      "value": "\"2\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/PlayerController\/AgeRestricted\/AgeRestrictedViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 223,
-      "length": 3,
-      "value": "\"3\""
+      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Public\/TargetVideoPlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1754,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/PlayerController\/AgeRestricted\/AgeRestrictedViewController.swift",
@@ -8266,27 +8326,6 @@
     {
       "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/PlayerController\/VideoEndStrategy\/VideoEndStrategy.swift",
       "kind": "StringLiteral",
-      "offset": 180,
-      "length": 13,
-      "value": "\"startScreen\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/PlayerController\/VideoEndStrategy\/VideoEndStrategy.swift",
-      "kind": "StringLiteral",
-      "offset": 217,
-      "length": 13,
-      "value": "\"shareScreen\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/PlayerController\/VideoEndStrategy\/VideoEndStrategy.swift",
-      "kind": "StringLiteral",
-      "offset": 256,
-      "length": 15,
-      "value": "\"relatedScreen\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/PlayerController\/VideoEndStrategy\/VideoEndStrategy.swift",
-      "kind": "StringLiteral",
       "offset": 333,
       "length": 12,
       "value": "\"continuous\""
@@ -8295,34 +8334,6 @@
       "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/PlayerController\/VideoEndStrategy\/VideoEndStrategy.swift",
       "kind": "StringLiteral",
       "offset": 362,
-      "length": 6,
-      "value": "\"stop\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/PlayerController\/VideoEndStrategy\/VideoEndStrategy.swift",
-      "kind": "StringLiteral",
-      "offset": 333,
-      "length": 12,
-      "value": "\"continuous\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/PlayerController\/VideoEndStrategy\/VideoEndStrategy.swift",
-      "kind": "StringLiteral",
-      "offset": 362,
-      "length": 6,
-      "value": "\"stop\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/PlayerController\/VideoEndStrategy\/VideoEndStrategy.swift",
-      "kind": "StringLiteral",
-      "offset": 419,
-      "length": 6,
-      "value": "\"loop\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/PlayerController\/VideoEndStrategy\/VideoEndStrategy.swift",
-      "kind": "StringLiteral",
-      "offset": 442,
       "length": 6,
       "value": "\"stop\""
     },
@@ -8346,34 +8357,6 @@
       "offset": 309,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/BrandingPosition.swift",
-      "kind": "StringLiteral",
-      "offset": 162,
-      "length": 3,
-      "value": "\"0\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/BrandingPosition.swift",
-      "kind": "StringLiteral",
-      "offset": 186,
-      "length": 3,
-      "value": "\"1\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/BrandingPosition.swift",
-      "kind": "StringLiteral",
-      "offset": 212,
-      "length": 3,
-      "value": "\"2\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/BrandingPosition.swift",
-      "kind": "StringLiteral",
-      "offset": 239,
-      "length": 3,
-      "value": "\"3\""
     },
     {
       "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/BrandingPosition.swift",
@@ -8537,13 +8520,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdManager.swift",
-      "kind": "StringLiteral",
-      "offset": 655,
-      "length": 9,
-      "value": "\"TargetVideoSDKtvOS.AdManager\""
-    },
-    {
       "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Extensions\/UIIMage.swift",
       "kind": "IntegerLiteral",
       "offset": 197,
@@ -8556,391 +8532,6 @@
       "offset": 210,
       "length": 3,
       "value": "300"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 290,
-      "length": 19,
-      "value": "\"playerInitialized\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 389,
-      "length": 14,
-      "value": "\"playerLoaded\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 467,
-      "length": 12,
-      "value": "\"videoPause\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 547,
-      "length": 11,
-      "value": "\"videoPlay\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 629,
-      "length": 16,
-      "value": "\"videoBuffering\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 711,
-      "length": 10,
-      "value": "\"videoEnd\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 807,
-      "length": 14,
-      "value": "\"playlistNext\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 915,
-      "length": 18,
-      "value": "\"playlistPrevious\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 996,
-      "length": 13,
-      "value": "\"playlistEnd\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 1071,
-      "length": 11,
-      "value": "\"videoMute\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 1148,
-      "length": 13,
-      "value": "\"videoUnmute\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 1237,
-      "length": 15,
-      "value": "\"videoAutoplay\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 1326,
-      "length": 13,
-      "value": "\"videoBadUrl\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 1483,
-      "length": 13,
-      "value": "\"playerClose\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 1602,
-      "length": 17,
-      "value": "\"getCurrentIndex\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 1712,
-      "length": 13,
-      "value": "\"getDuration\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 1869,
-      "length": 16,
-      "value": "\"getCurrentTime\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 2067,
-      "length": 13,
-      "value": "\"getPlaylist\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 2215,
-      "length": 11,
-      "value": "\"getSource\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 2374,
-      "length": 10,
-      "value": "\"getVideo\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 2466,
-      "length": 11,
-      "value": "\"getVolume\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 2601,
-      "length": 13,
-      "value": "\"playByIndex\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 2679,
-      "length": 12,
-      "value": "\"videoError\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 2760,
-      "length": 14,
-      "value": "\"networkError\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 2854,
-      "length": 18,
-      "value": "\"videoFormatError\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 2978,
-      "length": 22,
-      "value": "\"videoProtectionError\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 3086,
-      "length": 22,
-      "value": "\"videoLivestreamError\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 3188,
-      "length": 15,
-      "value": "\"videoCmsError\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 3267,
-      "length": 11,
-      "value": "\"videoStop\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 3336,
-      "length": 10,
-      "value": "\"adLoaded\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 3411,
-      "length": 11,
-      "value": "\"adRequest\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 3497,
-      "length": 14,
-      "value": "\"adImpression\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 3575,
-      "length": 13,
-      "value": "\"adCompleted\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 3648,
-      "length": 11,
-      "value": "\"adResumed\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 3719,
-      "length": 11,
-      "value": "\"adSkipped\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 3807,
-      "length": 17,
-      "value": "\"adContentResume\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 3913,
-      "length": 17,
-      "value": "\"adFirstQuartile\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 4008,
-      "length": 12,
-      "value": "\"adMidpoint\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 4109,
-      "length": 17,
-      "value": "\"adThirdQuartile\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 4183,
-      "length": 11,
-      "value": "\"adStarted\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 4253,
-      "length": 10,
-      "value": "\"adPaused\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 4322,
-      "length": 10,
-      "value": "\"adTapped\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 4403,
-      "length": 17,
-      "value": "\"allAdsCompleted\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 4487,
-      "length": 14,
-      "value": "\"adBreakReady\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 4568,
-      "length": 16,
-      "value": "\"adBreakStarted\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 4647,
-      "length": 14,
-      "value": "\"adBreakEnded\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 4726,
-      "length": 13,
-      "value": "\"adBuffering\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 4802,
-      "length": 12,
-      "value": "\"adProgress\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 4883,
-      "length": 17,
-      "value": "\"adPeriodStarted\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 4965,
-      "length": 15,
-      "value": "\"adPeriodEnded\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 5041,
-      "length": 11,
-      "value": "\"adClicked\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 5145,
-      "length": 25,
-      "value": "\"adContentPauseRequested\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 5258,
-      "length": 25,
-      "value": "\"adSkippableStateChanged\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 5362,
-      "length": 9,
-      "value": "\"adError\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 5454,
-      "length": 19,
-      "value": "\"adBreakFetchError\""
     },
     {
       "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Helpers\/PlayerEvents.swift",
@@ -9468,347 +9059,11 @@
       "value": "19"
     },
     {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdAnalytics\/AnalyticsEventKeys.swift",
-      "kind": "IntegerLiteral",
-      "offset": 176,
-      "length": 9,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdAnalytics\/AnalyticsEventKeys.swift",
-      "kind": "IntegerLiteral",
-      "offset": 195,
-      "length": 10,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdAnalytics\/AnalyticsEventKeys.swift",
-      "kind": "IntegerLiteral",
-      "offset": 215,
-      "length": 9,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdAnalytics\/AnalyticsEventKeys.swift",
-      "kind": "IntegerLiteral",
-      "offset": 234,
-      "length": 13,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdAnalytics\/AnalyticsEventKeys.swift",
-      "kind": "IntegerLiteral",
-      "offset": 257,
-      "length": 13,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdAnalytics\/AnalyticsEventKeys.swift",
-      "kind": "IntegerLiteral",
-      "offset": 280,
-      "length": 15,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdAnalytics\/AnalyticsEventKeys.swift",
-      "kind": "IntegerLiteral",
-      "offset": 305,
-      "length": 17,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdAnalytics\/AnalyticsEventKeys.swift",
-      "kind": "IntegerLiteral",
-      "offset": 332,
-      "length": 18,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdAnalytics\/AnalyticsEventKeys.swift",
-      "kind": "IntegerLiteral",
-      "offset": 360,
-      "length": 10,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdAnalytics\/AnalyticsEventKeys.swift",
-      "kind": "IntegerLiteral",
-      "offset": 380,
-      "length": 17,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdAnalytics\/AnalyticsEventKeys.swift",
-      "kind": "IntegerLiteral",
-      "offset": 407,
-      "length": 15,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdAnalytics\/AnalyticsEventKeys.swift",
-      "kind": "IntegerLiteral",
-      "offset": 432,
-      "length": 17,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdAnalytics\/AnalyticsEventKeys.swift",
-      "kind": "IntegerLiteral",
-      "offset": 459,
-      "length": 16,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdAnalytics\/AnalyticsEventKeys.swift",
-      "kind": "IntegerLiteral",
-      "offset": 485,
-      "length": 14,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdAnalytics\/AnalyticsEventKeys.swift",
-      "kind": "IntegerLiteral",
-      "offset": 509,
-      "length": 13,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdAnalytics\/AnalyticsEventKeys.swift",
-      "kind": "IntegerLiteral",
-      "offset": 532,
-      "length": 17,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdAnalytics\/AnalyticsEventKeys.swift",
-      "kind": "IntegerLiteral",
-      "offset": 559,
-      "length": 10,
-      "value": "17"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdAnalytics\/AnalyticsEventKeys.swift",
-      "kind": "IntegerLiteral",
-      "offset": 579,
-      "length": 12,
-      "value": "18"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdAnalytics\/AnalyticsEventKeys.swift",
-      "kind": "IntegerLiteral",
-      "offset": 601,
-      "length": 5,
-      "value": "19"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdAnalytics\/AnalyticsEventKeys.swift",
-      "kind": "IntegerLiteral",
-      "offset": 176,
-      "length": 9,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdAnalytics\/AnalyticsEventKeys.swift",
-      "kind": "IntegerLiteral",
-      "offset": 195,
-      "length": 10,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdAnalytics\/AnalyticsEventKeys.swift",
-      "kind": "IntegerLiteral",
-      "offset": 215,
-      "length": 9,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdAnalytics\/AnalyticsEventKeys.swift",
-      "kind": "IntegerLiteral",
-      "offset": 234,
-      "length": 13,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdAnalytics\/AnalyticsEventKeys.swift",
-      "kind": "IntegerLiteral",
-      "offset": 257,
-      "length": 13,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdAnalytics\/AnalyticsEventKeys.swift",
-      "kind": "IntegerLiteral",
-      "offset": 280,
-      "length": 15,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdAnalytics\/AnalyticsEventKeys.swift",
-      "kind": "IntegerLiteral",
-      "offset": 305,
-      "length": 17,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdAnalytics\/AnalyticsEventKeys.swift",
-      "kind": "IntegerLiteral",
-      "offset": 332,
-      "length": 18,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdAnalytics\/AnalyticsEventKeys.swift",
-      "kind": "IntegerLiteral",
-      "offset": 360,
-      "length": 10,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdAnalytics\/AnalyticsEventKeys.swift",
-      "kind": "IntegerLiteral",
-      "offset": 380,
-      "length": 17,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdAnalytics\/AnalyticsEventKeys.swift",
-      "kind": "IntegerLiteral",
-      "offset": 407,
-      "length": 15,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdAnalytics\/AnalyticsEventKeys.swift",
-      "kind": "IntegerLiteral",
-      "offset": 432,
-      "length": 17,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdAnalytics\/AnalyticsEventKeys.swift",
-      "kind": "IntegerLiteral",
-      "offset": 459,
-      "length": 16,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdAnalytics\/AnalyticsEventKeys.swift",
-      "kind": "IntegerLiteral",
-      "offset": 485,
-      "length": 14,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdAnalytics\/AnalyticsEventKeys.swift",
-      "kind": "IntegerLiteral",
-      "offset": 509,
-      "length": 13,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdAnalytics\/AnalyticsEventKeys.swift",
-      "kind": "IntegerLiteral",
-      "offset": 532,
-      "length": 17,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdAnalytics\/AnalyticsEventKeys.swift",
-      "kind": "IntegerLiteral",
-      "offset": 559,
-      "length": 10,
-      "value": "17"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdAnalytics\/AnalyticsEventKeys.swift",
-      "kind": "IntegerLiteral",
-      "offset": 579,
-      "length": 12,
-      "value": "18"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/AdManager\/AdAnalytics\/AnalyticsEventKeys.swift",
-      "kind": "IntegerLiteral",
-      "offset": 601,
-      "length": 5,
-      "value": "19"
-    },
-    {
       "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/PlayerController\/VideoEndStrategy\/RecommendedScreen\/ShelfPlaylistCollectionViewCell\/ShelfPlaylistCollectionViewCell.swift",
       "kind": "StringLiteral",
       "offset": 1293,
       "length": 33,
       "value": "\"ShelfPlaylistCollectionViewCell\""
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Models\/VideoData.swift",
-      "kind": "IntegerLiteral",
-      "offset": 156,
-      "length": 8,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Models\/VideoData.swift",
-      "kind": "IntegerLiteral",
-      "offset": 174,
-      "length": 6,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Models\/VideoData.swift",
-      "kind": "IntegerLiteral",
-      "offset": 190,
-      "length": 7,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Models\/VideoData.swift",
-      "kind": "IntegerLiteral",
-      "offset": 207,
-      "length": 3,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Models\/VideoData.swift",
-      "kind": "IntegerLiteral",
-      "offset": 220,
-      "length": 7,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Models\/VideoData.swift",
-      "kind": "IntegerLiteral",
-      "offset": 156,
-      "length": 8,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Models\/VideoData.swift",
-      "kind": "IntegerLiteral",
-      "offset": 174,
-      "length": 6,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Models\/VideoData.swift",
-      "kind": "IntegerLiteral",
-      "offset": 190,
-      "length": 7,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Models\/VideoData.swift",
-      "kind": "IntegerLiteral",
-      "offset": 207,
-      "length": 3,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Models\/VideoData.swift",
-      "kind": "IntegerLiteral",
-      "offset": 220,
-      "length": 7,
-      "value": "5"
     },
     {
       "filePath": "\/Users\/briduser\/targetvideotvossdk\/TargetVideoSDKtvOSApp\/TargetVideoSDKtvOS\/TargetVideoSDKtvOS\/Models\/VideoData.swift",
